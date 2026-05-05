@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SleepBaby — Politique de confidentialité</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #0a0a0a;
+            color: #e0e0e0;
+            line-height: 1.7;
+        }
+        header {
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            padding: 48px 24px;
+            text-align: center;
+            border-bottom: 1px solid #222;
+        }
+        header h1 {
+            font-size: 2.5rem;
+            color: #64ffda;
+            letter-spacing: -0.5px;
+        }
+        header p {
+            color: #888;
+            margin-top: 8px;
+            font-size: 0.95rem;
+        }
+        main {
+            max-width: 820px;
+            margin: 0 auto;
+            padding: 48px 24px;
+        }
+        section {
+            margin-bottom: 40px;
+            background: #111;
+            border-radius: 12px;
+            padding: 28px 32px;
+            border: 1px solid #1e1e1e;
+        }
+        h2 {
+            font-size: 1.25rem;
+            color: #64ffda;
+            margin-bottom: 16px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #1e1e1e;
+        }
+        p { margin-bottom: 12px; color: #ccc; }
+        ul {
+            margin: 12px 0 12px 20px;
+            color: #ccc;
+        }
+        ul li { margin-bottom: 8px; }
+        .highlight {
+            background: #0d2a1f;
+            border-left: 3px solid #64ffda;
+            padding: 16px 20px;
+            border-radius: 0 8px 8px 0;
+            margin: 16px 0;
+            color: #a0f0d0;
+        }
+        .warning {
+            background: #1a1200;
+            border-left: 3px solid #ffb300;
+            padding: 16px 20px;
+            border-radius: 0 8px 8px 0;
+            margin: 16px 0;
+            color: #ffe082;
+        }
+        a { color: #64ffda; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        footer {
+            text-align: center;
+            padding: 32px 24px;
+            color: #555;
+            font-size: 0.85rem;
+            border-top: 1px solid #1e1e1e;
+        }
+        .date {
+            display: inline-block;
+            background: #1e1e1e;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            color: #888;
+            margin-top: 8px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>🌙 SleepBaby</h1>
+    <p>Politique de confidentialité</p>
+    <span class="date">Dernière mise à jour : Mai 2026</span>
+</header>
+
+<main>
+
+    <section>
+        <h2>1. Introduction</h2>
+        <p>Bienvenue sur SleepBaby. Nous prenons la protection de votre vie privée très au sérieux, en particulier lorsqu'il s'agit de données sensibles comme l'accès au microphone de votre appareil.</p>
+        <p>Cette politique de confidentialité explique quelles données nous collectons, comment nous les utilisons et quels droits vous avez concernant vos informations personnelles.</p>
+        <p>En utilisant SleepBaby, vous acceptez les pratiques décrites dans cette politique.</p>
+    </section>
+
+    <section>
+        <h2>2. Utilisation du microphone</h2>
+        <div class="highlight">
+            <strong>🎤 Aucun enregistrement audio n'est effectué.</strong><br>
+            SleepBaby utilise le microphone de votre smartphone uniquement pour détecter les niveaux sonores ambiants en temps réel. Le son est analysé localement en mémoire et immédiatement supprimé. Aucun fichier audio n'est créé, stocké ou transmis.
+        </div>
+        <p>Le microphone est utilisé exclusivement pour :</p>
+        <ul>
+            <li>Mesurer le niveau sonore ambiant de la pièce en temps réel</li>
+            <li>Détecter les pics sonores soudains (explosions, musiques fortes)</li>
+            <li>Envoyer une commande de baisse de volume à l'application TV via votre réseau WiFi local</li>
+        </ul>
+        <p>Le microphone n'est actif que lorsque vous activez explicitement la protection depuis l'application. Vous pouvez désactiver l'écoute à tout moment depuis l'écran principal.</p>
+    </section>
+
+    <section>
+        <h2>3. Données collectées</h2>
+        <p>SleepBaby collecte les données suivantes :</p>
+        <ul>
+            <li><strong>Adresse email</strong> — utilisée pour créer et gérer votre compte</li>
+            <li><strong>Mot de passe</strong> — stocké de façon chiffrée, jamais en clair</li>
+            <li><strong>Solde de crédits</strong> — nombre de minutes de protection disponibles</li>
+            <li><strong>Historique des transactions</strong> — publicités visionnées et crédits obtenus</li>
+        </ul>
+        <p>Nous ne collectons pas :</p>
+        <ul>
+            <li>Données de localisation</li>
+            <li>Contacts téléphoniques</li>
+            <li>Fichiers ou médias</li>
+            <li>Données audio ou enregistrements</li>
+            <li>Informations de paiement</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>4. Stockage et sécurité des données</h2>
+        <p>Vos données personnelles sont stockées de manière sécurisée via <strong>Supabase</strong>, une plateforme de base de données conforme aux normes de sécurité modernes.</p>
+        <ul>
+            <li>Les mots de passe sont chiffrés et ne sont jamais stockés en clair</li>
+            <li>Les communications entre l'application et nos serveurs utilisent le protocole HTTPS</li>
+            <li>L'accès aux données est limité et contrôlé par des politiques de sécurité strictes</li>
+        </ul>
+        <p>La communication entre l'application mobile et l'application TV se fait exclusivement sur votre réseau WiFi local via WebSocket. Aucune donnée audio ne transite par nos serveurs.</p>
+    </section>
+
+    <section>
+        <h2>5. Publicités (AdMob)</h2>
+        <p>SleepBaby utilise <strong>Google AdMob</strong> pour afficher des publicités avec récompense. En regardant une publicité, vous obtenez des crédits supplémentaires.</p>
+        <div class="warning">
+            <strong>⚠️ Note :</strong> Google AdMob peut collecter certaines données pour personnaliser les publicités, conformément à la politique de confidentialité de Google. Vous pouvez consulter la politique de Google ici : <a href="https://policies.google.com/privacy" target="_blank">policies.google.com/privacy</a>
+        </div>
+        <p>Les publicités affichées sont des publicités avec récompense — vous choisissez librement de les regarder. Aucune publicité n'est affichée sans votre consentement explicite.</p>
+    </section>
+
+    <section>
+        <h2>6. Partage des données</h2>
+        <p>Nous ne vendons jamais vos données personnelles à des tiers.</p>
+        <p>Vos données peuvent être partagées uniquement avec :</p>
+        <ul>
+            <li><strong>Supabase</strong> — pour le stockage sécurisé de votre compte et de vos crédits</li>
+            <li><strong>Google AdMob</strong> — pour la diffusion de publicités (voir section 5)</li>
+        </ul>
+        <p>Ces partenaires sont soumis à leurs propres politiques de confidentialité et traitent vos données conformément aux réglementations applicables (RGPD en Europe).</p>
+    </section>
+
+    <section>
+        <h2>7. Vos droits (RGPD)</h2>
+        <p>Conformément au Règlement Général sur la Protection des Données (RGPD), vous disposez des droits suivants :</p>
+        <ul>
+            <li><strong>Droit d'accès</strong> — vous pouvez demander une copie de vos données</li>
+            <li><strong>Droit de rectification</strong> — vous pouvez corriger vos données inexactes</li>
+            <li><strong>Droit à l'effacement</strong> — vous pouvez demander la suppression de votre compte et de vos données</li>
+            <li><strong>Droit à la portabilité</strong> — vous pouvez recevoir vos données dans un format lisible</li>
+            <li><strong>Droit d'opposition</strong> — vous pouvez vous opposer au traitement de vos données</li>
+        </ul>
+        <p>Pour exercer ces droits, contactez-nous à l'adresse indiquée en section 9.</p>
+    </section>
+
+    <section>
+        <h2>8. Conservation des données</h2>
+        <p>Vos données sont conservées tant que votre compte est actif. Si vous supprimez votre compte, toutes vos données personnelles seront effacées dans un délai de 30 jours.</p>
+        <p>Les données anonymisées (statistiques d'utilisation agrégées) peuvent être conservées plus longtemps à des fins d'amélioration du service.</p>
+    </section>
+
+    <section>
+        <h2>9. Contact</h2>
+        <p>Pour toute question concernant cette politique de confidentialité ou pour exercer vos droits, vous pouvez nous contacter :</p>
+        <ul>
+            <li><strong>Email :</strong> <a href="mailto:contact@sleepbaby.app">contact@sleepbaby.app</a></li>
+        </ul>
+        <p>Nous nous engageons à répondre à toute demande dans un délai de 30 jours.</p>
+    </section>
+
+    <section>
+        <h2>10. Modifications de cette politique</h2>
+        <p>Nous pouvons mettre à jour cette politique de confidentialité à tout moment. En cas de modification importante, nous vous en informerons via l'application.</p>
+        <p>La date de dernière mise à jour est indiquée en haut de cette page. Nous vous encourageons à consulter régulièrement cette page.</p>
+    </section>
+
+</main>
+
+<footer>
+    <p>© 2026 SleepBaby. Tous droits réservés.</p>
+    <p style="margin-top: 8px;">Profitez de vos films sans réveiller bébé 🌙</p>
+</footer>
+
+</body>
+</html>
